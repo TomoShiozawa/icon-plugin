@@ -7,7 +7,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
         [
           React.createElement('img', {
             class: 'logo',
-            src: file_path,
+            src: 'file_path',
           }),
           React.createElement(
             'style',
@@ -17,8 +17,8 @@ exports.decorateTerm = (Term, { React, notify }) => {
               width: 500px;
               height: 417px;
               position: absolute;
-              bottom: 5%;
-              left: 70%;
+              bottom: 0%;
+              right: 0%;
               pointer-events: none;
               z-index: 1000;
             }
